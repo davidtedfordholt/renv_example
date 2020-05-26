@@ -1,10 +1,12 @@
 library(renv)
-# library(magrittr)
 
-# dependencies() %>%
-#     hydrate()
+dependencies()
 
 init()
+
+# This is essentially:
+# dependencies() %>%
+#     hydrate()
 
 # look at:
 # .Rprofile
